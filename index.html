@@ -54,7 +54,7 @@
         border: none;
         outline: none;
         background: none;
-        font-size: 1rem;
+        font-size: 0.75rem;
         padding: 1rem;
       }
       .search__icon {
@@ -117,8 +117,15 @@
         font-size: .7rem;
       }
       .menu__item-name {
+        color: #bebebe;
         font-size: .75rem;
         font-weight: 500;
+      }
+      .menu__icon-item {
+        color: #7d6de9;
+      }
+      .menu__icon-arrow-right {
+        color: #0c0b0b;
       }
       .menu__text {
         display: flex;
@@ -141,16 +148,138 @@
             <li class="menu__item">
               <a href="./" class="menu__link">
                 <span class="menu__text">
-                  <span class="menu__icon menu__icon--medium mr-2">
+                  <span class="menu__icon menu__icon--medium menu__icon-item mr-2">
                     <i class="las la-th-large"></i>
                   </span>
 
                   <span class="menu__item-name"> Dashboard </span>
                 </span>
 
-                <span class="menu__icon menu__icon--small">
+                <span class="menu__icon menu__icon--small menu__icon-arrow-right">
                   <i class="las la-angle-right"></i>
                 </span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="./" class="menu__link">
+                <span class="menu__text">
+                  <span class="menu__icon menu__icon--medium menu__icon-item mr-2">
+                    <i class="las la-stop"></i>
+                  </span>
+
+                  <span class="menu__item-name"> Transactions </span>
+                </span>
+
+                <span class="menu__icon menu__icon--small menu__icon-arrow-right">
+                  <i class="las la-angle-right"></i>
+                </span>
+              </a>
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="./" class="menu__link">
+                    <span class="menu__text">
+                      <span class="menu__icon menu__icon--medium menu__icon-item mr-2">
+                        <i class="lab la-dropbox"></i>
+                      </span>
+    
+                      <span class="menu__item-name"> Contacts </span>
+                    </span>
+    
+                    <span class="menu__icon menu__icon--small menu__icon-arrow-right">
+                      <i class="las la-angle-right"></i>
+                    </span>
+                  </a>
+                  <ul class="menu__list">
+                    <li class="menu__item">
+                      <a href="./" class="menu__link">
+                        <span class="menu__text">
+                          <span class="menu__icon menu__icon--medium menu__icon-item mr-2">
+                            <i class="las la-stream"></i>
+                          </span>
+        
+                          <span class="menu__item-name"> Features </span>
+                        </span>
+        
+                        <span class="menu__icon menu__icon--small menu__icon-arrow-right">
+                          <i class="las la-angle-right"></i>
+                        </span>
+                      </a>
+                      <ul class="menu__list">
+                        <li class="menu__item">
+                          <a href="./" class="menu__link">
+                            <span class="menu__text">
+                              <span class="menu__icon menu__icon--medium menu__icon-item mr-2">
+                                <i class="las la-book"></i>
+                              </span>
+            
+                              <span class="menu__item-name"> Library </span>
+                            </span>
+            
+                            <span class="menu__icon menu__icon--small menu__icon-arrow-right">
+                              <i class="las la-angle-right"></i>
+                            </span>
+                          </a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="menu">
+          <h5 class="menu__subtitle">Settings & Shedules</h5>
+
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="./" class="menu__link">
+                <span class="menu__text">
+                  <span class="menu__icon menu__icon--medium menu__icon-item mr-2">
+                    <i class="las la-wallet"></i>
+                  </span>
+
+                  <span class="menu__item-name"> Base Wallet </span>
+                </span>
+
+                <span class="menu__icon menu__icon--small menu__icon-arrow-right">
+                  <i class="las la-angle-right"></i>
+                </span>
+                <a href="./" class="menu__link">
+                  <span class="menu__text">
+                    <span class="menu__icon menu__icon--medium menu__icon-item mr-2">
+                      <i class="las la-phone-volume"></i>
+                    </span>
+  
+                    <span class="menu__item-name"> My Contacts </span>
+                  </span>
+  
+                  <span class="menu__icon menu__icon--small menu__icon-arrow-right">
+                    <i class="las la-angle-right"></i>
+                  </span>
+                </a>
+                <a href="./" class="menu__link">
+                  <span class="menu__text">
+                    <span class="menu__icon menu__icon--medium menu__icon-item mr-2">
+                      <i class="las la-file-invoice-dollar"></i>
+                    </span>
+  
+                    <span class="menu__item-name"> Invoices </span>
+                  </span>
+  
+                  <span class="menu__icon menu__icon--small menu__icon-arrow-right">
+                    <i class="las la-angle-right"></i>
+                  </span>
+                </a>
+                <a href="./" class="menu__link">
+                  <span class="menu__text">
+                    <span class="menu__icon menu__icon--medium menu__icon-item mr-2">
+                      <i class="lab la-quinscape"></i>
+                    </span>
+  
+                    <span class="menu__item-name"> Schedules </span>
+                  </span>
+  
+                  <span class="menu__icon menu__icon--small menu__icon-arrow-right">
+                    <i class="las la-angle-right"></i>
+                  </span>
+                </a>
+                
               </a>
             </li>
           </ul>
@@ -189,7 +318,7 @@
           <div class="user-block">
             <h4 class="subtitle mr-4">Hi, Andrei</h4>
 
-            <img class="avatar" src="https://via.placeholder.com/42" alt="" />
+            <img class="avatar" src="https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-32/48/Wolfenstein-5-icon.png" alt="" />
           </div>
         </header>
       </main>
